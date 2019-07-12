@@ -4,7 +4,7 @@ using namespace std;
 
 void print(vector<int>& vec)
 {
-    cout << "(";
+    cout << "( ";
     for(auto v : vec)
         cout << v << " ";
     cout << ")" << endl;
