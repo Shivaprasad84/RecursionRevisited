@@ -14,10 +14,7 @@ void diceSumHelper(int dice, vector<int>& chosen, int desiredSum, int sumSofar)
 {
     if(dice == 0)
     {
-        if(sumSofar == desiredSum)
-        {
-            print(chosen);
-        }
+        print(chosen);
     }
     else
     {
